@@ -1,7 +1,6 @@
 /* 
 Create a config object using as const
 Extract a union of its values
-Try mutating a property (should error)
 */
 
 const Role = {
@@ -16,4 +15,3 @@ let userRole: RoleValues;
 
 userRole = "student";
 userRole = "professor";
-userRole = "admin"; 
